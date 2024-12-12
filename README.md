@@ -1,79 +1,95 @@
-# Pixel Art Portfolio Website
+# Minimal Pixel Portfolio
 
-A retro-styled portfolio website with a pixel art theme, featuring smooth animations and interactive elements.
+A minimalist portfolio website combining pixel art aesthetics with modern design principles. Clean, elegant, and focused on content presentation.
 
 ![Portfolio Preview](https://i.imgur.com/vxpqxGQ.png)
 
 🎮 [View Live Demo](https://pixelart-portfolio.netlify.app/)
 
-## Features
+## Design Philosophy
 
-- 🎮 Retro pixel art design
-- 💫 Smooth animations and transitions
-- 🖥️ Fully responsive layout
-- ⌨️ Keyboard accessible
-- 🎨 Custom pixel art styling
-- ✨ Interactive elements
+- 🎯 Content-first approach
+- ✨ Subtle pixel art elements
+- 🎨 Modern minimalist UI
+- 📱 Responsive design
+- ♿ Enhanced accessibility
+- 🚀 Optimized performance
 
-## Technologies Used
+## Key Features
 
-- HTML5
-- CSS3 (with CSS Variables)
-- JavaScript (Vanilla)
-- Google Fonts (Press Start 2P)
+### Minimal Design Elements
+- Clean typography with Press Start 2P font
+- Subtle hover animations
+- Thoughtful whitespace usage
+- Focused content presentation
 
-## Setup
+### Project Showcase
+- SVG geometric art placeholders
+- Project categorization
+- Technology highlights
+- Direct GitHub repository links
+
+### Interactive Elements
+- Animated skill bars
+- Smooth hover effects
+- Responsive contact form
+- Social media integration
+
+## Tech Stack
+
+```plaintext
+Frontend:
+├── HTML5 (Semantic markup)
+├── CSS3
+│   ├── Custom properties
+│   ├── Flexbox
+│   ├── Grid
+│   └── Animations
+└── JavaScript (Vanilla)
+```
+
+## Quick Start
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/only-mar/pixel-art-portfolio.git
 ```
 
-2. Navigate to the project directory:
+2. Navigate to project:
 ```bash
 cd pixel-art-portfolio
 ```
 
-3. Open `index.html` in your browser or use a local server:
+3. Open in browser:
 ```bash
+# Using Python
 python -m http.server 8000
-# Then visit http://localhost:8000
-```
 
-## Project Structure
+# Using PHP
+php -S localhost:8000
 
-```
-pixel-art-portfolio/
-├── index.html
-├── styles/
-│   └── main.css
-├── scripts/
-│   └── main.js
-└── README.md
+# Using Node.js
+npx serve
 ```
 
 ## Customization
 
-1. Colors: Edit the CSS variables in `styles/main.css`:
+### Color Scheme
 ```css
 :root {
-    --primary: #ff6b6b;
-    --secondary: #4ecdc4;
-    --background: #2f2f2f;
-    --text: #ffffff;
-    --accent: #ffe66d;
+    --primary: #6366F1;    /* Indigo */
+    --background: #0F172A; /* Dark background */
+    --surface: #1E293B;    /* Surface */
+    --text: #F8FAFC;      /* White text */
+    --accent: #F472B6;    /* Pink accent */
 }
 ```
 
-2. Content: Update the content in `index.html` with your personal information.
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+### Content
+1. Update `index.html` with your information
+2. Modify project cards in the portfolio section
+3. Customize SVG placeholders
+4. Add your social media links
 
 ## License
 
@@ -85,9 +101,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@only-mar](https://github.com/only-mar)
 - Website: [So Creative Tech](https://so-creativetech.com)
 
-## Support My Work
+## Support
 
-If you like my work and want to support me, you can buy me a coffee:
+If you find this template useful, consider supporting my work:
 
 <a href="https://www.buymeacoffee.com/onlymar" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
@@ -95,5 +111,9 @@ If you like my work and want to support me, you can buy me a coffee:
 
 ## Acknowledgments
 
-- Font: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) from Google Fonts
-- Inspiration: Classic 8-bit video games and pixel art 
+- Font: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
+- Inspiration: Minimalist design principles with pixel art aesthetics
+
+---
+
+<p align="center">Made with ❤️ by Mar</p>

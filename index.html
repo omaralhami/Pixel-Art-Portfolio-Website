@@ -9,27 +9,28 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
 </head>
 <body>
-    <div class="pixel-scanlines"></div>
-    <header class="pixel-header">
-        <nav class="pixel-nav">
-            <div class="logo" data-text="MAR">MAR</div>
-            <ul>
-                <li><a href="#about" class="pixel-link">About</a></li>
-                <li><a href="#projects" class="pixel-link">Projects</a></li>
-                <li><a href="#contact" class="pixel-link">Contact</a></li>
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+    <div class="pixel-scanlines" aria-hidden="true"></div>
+    <header class="pixel-header" role="banner">
+        <nav class="pixel-nav" role="navigation" aria-label="Main navigation">
+            <div class="logo" data-text="MAR" role="heading" aria-level="1">MAR</div>
+            <ul role="menubar">
+                <li role="none"><a href="#about" class="pixel-link" role="menuitem">About</a></li>
+                <li role="none"><a href="#projects" class="pixel-link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="#contact" class="pixel-link" role="menuitem">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="hero" class="pixel-section">
+    <main id="main-content" role="main">
+        <section id="hero" class="pixel-section" aria-labelledby="hero-title">
             <div class="hero-content">
-                <h1 class="glitch-text" data-text="Omar Alhami">Omar Alhami</h1>
+                <h1 id="hero-title" class="glitch-text" data-text="Omar Alhami">Omar Alhami</h1>
                 <p class="subtitle">Full-stack Developer & Security Researcher</p>
-                <div class="pixel-avatar">
+                <div class="pixel-avatar" aria-hidden="true">
                     <div class="pixel-avatar-inner"></div>
                 </div>
-                <div class="pixel-decorations">
+                <div class="pixel-decorations" aria-hidden="true">
                     <div class="pixel-star"></div>
                     <div class="pixel-star"></div>
                     <div class="pixel-star"></div>
@@ -38,130 +39,148 @@
         </section>
 
         <section id="about" class="pixel-section">
-            <h2 class="section-title" data-text="About Me">About Me</h2>
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <p>Hey there! I'm Omar, but you can call me Mar. I'm a Full-stack Web & App Developer with a passion for security research. Currently serving as the Co-Founder and CTO of <a href="https://so-creativetech.com" target="_blank" class="pixel-link">So Creative Tech</a>.</p>
-                <div class="skills">
-                    <h3 class="pixel-title">Skills</h3>
-                    <ul class="skill-list">
-                        <li class="skill-item">Full-stack Development</li>
-                        <li class="skill-item">Security Research</li>
-                        <li class="skill-item">Technical Leadership</li>
-                        <li class="skill-item">System Architecture</li>
-                    </ul>
+                <div class="about-text">
+                    <p>Hey there! I'm <strong>Omar</strong>, but you can call me <strong>Mar</strong>. I'm a Full-stack Web & App Developer with a passion for security research. Currently serving as the Co-Founder and CTO of <a href="https://so-creativetech.com" target="_blank" rel="noopener noreferrer" class="pixel-link">So Creative Tech</a>.</p>
+                    <p>With a focus on creating secure and scalable applications, I combine modern development practices with robust security principles to build reliable solutions.</p>
                 </div>
-            </div>
-            <div class="pixel-decorations">
-                <div class="pixel-cube"></div>
-                <div class="pixel-cube"></div>
+                <div class="skills">
+                    <h3>Core Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Full-stack Development</span>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Security Research</span>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Technical Leadership</span>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">System Architecture</span>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="projects" class="pixel-section">
-            <h2 class="section-title" data-text="Projects">Projects</h2>
-            <div class="project-grid">
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="pixel-overlay"></div>
-                        <div class="project-preview">
-                            <div class="pixel-art-preview pixel-game"></div>
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container">
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <svg width="100%" height="100%" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#1E293B"/>
+                                <circle cx="200" cy="150" r="50" fill="#6366F1" opacity="0.5"/>
+                                <rect x="150" y="120" width="100" height="60" fill="#F472B6" opacity="0.3"/>
+                                <path d="M150,100 L250,100 L200,50 Z" fill="#6366F1" opacity="0.4"/>
+                            </svg>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Pixel Quest RPG</h3>
-                        <p>A retro-style RPG game built with JavaScript and HTML5 Canvas. Features dynamic combat, pixel-perfect animations, and a nostalgic 16-bit art style.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Canvas</span>
-                            <span class="tech-tag">WebGL</span>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Pixel Quest RPG</h3>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <p class="project-description">A retro-style RPG game built with JavaScript and HTML5 Canvas. Features dynamic combat, pixel-perfect animations, and a nostalgic 16-bit art style.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Canvas</span>
+                                <span class="tech-tag">WebGL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/only-mar/" class="project-link">Demo</a>
+                                <a href="https://github.com/only-mar/" class="project-link">GitHub</a>
+                            </div>
                         </div>
-                        <div class="project-links">
-                            <a href="#" class="pixel-button">Demo</a>
-                            <a href="#" class="pixel-button">GitHub</a>
-                        </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="pixel-overlay"></div>
-                        <div class="project-preview">
-                            <div class="pixel-art-preview pixel-editor"></div>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <svg width="100%" height="100%" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#1E293B"/>
+                                <rect x="100" y="100" width="200" height="100" fill="#6366F1" opacity="0.3"/>
+                                <circle cx="150" cy="150" r="30" fill="#F472B6" opacity="0.4"/>
+                                <circle cx="250" cy="150" r="30" fill="#F472B6" opacity="0.4"/>
+                                <rect x="140" y="140" width="120" height="20" fill="#6366F1" opacity="0.5"/>
+                            </svg>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>PixelCraft Studio</h3>
-                        <p>An online pixel art creation tool with real-time collaboration features. Create, share, and animate pixel art with an intuitive interface.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">WebSocket</span>
-                            <span class="tech-tag">Node.js</span>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">PixelCraft Studio</h3>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <p class="project-description">An online pixel art creation tool with real-time collaboration features. Create, share, and animate pixel art with an intuitive interface.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">WebSocket</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/only-mar/" class="project-link">Live Site</a>
+                                <a href="https://github.com/only-mar/" class="project-link">GitHub</a>
+                            </div>
                         </div>
-                        <div class="project-links">
-                            <a href="#" class="pixel-button">Live Site</a>
-                            <a href="#" class="pixel-button">GitHub</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="pixel-overlay"></div>
-                        <div class="project-preview">
-                            <div class="pixel-art-preview pixel-chat"></div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>RetroChat App</h3>
-                        <p>A messaging platform with a retro gaming aesthetic. Features pixel art emojis, 8-bit sound effects, and theme customization.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Vue.js</span>
-                            <span class="tech-tag">Firebase</span>
-                            <span class="tech-tag">PWA</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="pixel-button">Try It</a>
-                            <a href="#" class="pixel-button">GitHub</a>
-                        </div>
-                    </div>
-                </article>
+                    </article>
+                </div>
             </div>
         </section>
 
         <section id="contact" class="pixel-section">
-            <h2 class="section-title" data-text="Contact">Contact</h2>
             <div class="contact-container">
-                <form id="contact-form" class="pixel-form">
+                <div class="contact-header">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="contact-description">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+                </div>
+                <form class="contact-form">
                     <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required class="pixel-input">
+                        <label class="form-label" for="name">Name</label>
+                        <input type="text" id="name" class="form-input" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required class="pixel-input">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" id="email" class="form-input" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required class="pixel-input"></textarea>
+                        <label class="form-label" for="message">Message</label>
+                        <textarea id="message" class="form-input" required></textarea>
                     </div>
-                    <button type="submit" class="pixel-button">
-                        <span class="button-text">Send Message</span>
-                        <span class="button-icon">►</span>
-                    </button>
+                    <button type="submit" class="contact-submit">Send Message</button>
                 </form>
+                <div class="contact-alternatives">
+                    <h3>Or reach out via</h3>
+                    <div class="social-links-alt">
+                        <a href="https://github.com/only-mar" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="pixel-footer">
+    <footer class="pixel-footer" role="contentinfo">
         <div class="social-links">
-            <a href="https://github.com/only-mar" target="_blank" class="pixel-link">
+            <a href="https://github.com/only-mar" target="_blank" rel="noopener noreferrer" class="pixel-link">
                 <span class="link-text">GitHub</span>
-                <span class="link-icon">⌘</span>
+                <span class="link-icon" aria-hidden="true">⌘</span>
             </a>
-            <a href="https://so-creativetech.com" target="_blank" class="pixel-link">
+            <a href="https://so-creativetech.com" target="_blank" rel="noopener noreferrer" class="pixel-link">
                 <span class="link-text">So Creative Tech</span>
-                <span class="link-icon">웃</span>
+                <span class="link-icon" aria-hidden="true">웃</span>
             </a>
         </div>
         <p class="copyright">&copy; 2023 Omar Alhami. All rights reserved.</p>
