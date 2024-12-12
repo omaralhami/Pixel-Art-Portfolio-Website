@@ -1,4 +1,4 @@
-# Minimal Pixel Portfolio
+# Minimal Pixel Art Portfolio Website
 
 A minimalist portfolio website combining pixel art aesthetics with modern design principles. Clean, elegant, and focused on content presentation.
 
