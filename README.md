@@ -95,13 +95,22 @@ npx serve
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Acknowledgments
+
+- Font: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
+- Inspiration: Minimalist design principles with pixel art aesthetics
+
 ## Author
 
 **Omar Alhami (Mar)**
 - GitHub: [@only-mar](https://github.com/only-mar)
 - Website: [So Creative Tech](https://so-creativetech.com)
 
+---
+
 ## Support
+
+<div align="center">
 
 If you find this template useful, consider supporting my work:
 
@@ -109,11 +118,5 @@ If you find this template useful, consider supporting my work:
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
 </a>
 
-## Acknowledgments
-
-- Font: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
-- Inspiration: Minimalist design principles with pixel art aesthetics
-
----
-
-<p align="center">Made with ❤️ by Mar</p>
+Made with ❤️ by <a href="https://github.com/only-mar">Mar</a>
+</div>
