@@ -106,11 +106,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@only-mar](https://github.com/only-mar)
 - Website: [So Creative Tech](https://so-creativetech.com)
 
----
+
+## Support
 
 <div align="center">
 
-## Support
 
 If you find this template useful, consider supporting my work:
 
