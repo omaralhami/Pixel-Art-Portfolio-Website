@@ -2,7 +2,7 @@
 
 A minimalist portfolio website combining pixel art aesthetics with modern design principles. Clean, elegant, and focused on content presentation.
 
-![Portfolio Preview](https://i.imgur.com/vxpqxGQ.png)
+![Portfolio Preview](https://github.com/only-mar/Pixel-Art-Portfolio-Website/image/image.png)
 
 🎮 [View Live Demo](https://pixelart-portfolio.netlify.app/)
 
@@ -108,9 +108,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Support
-
 <div align="center">
+
+## Support
 
 If you find this template useful, consider supporting my work:
 
