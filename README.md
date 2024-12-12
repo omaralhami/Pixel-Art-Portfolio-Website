@@ -2,7 +2,7 @@
 
 A minimalist portfolio website combining pixel art aesthetics with modern design principles. Clean, elegant, and focused on content presentation.
 
-![Portfolio Preview](https://github.com/only-mar/Pixel-Art-Portfolio-Website/blob/master/image/image.png)
+![Portfolio Preview](https://github.com/only-mar/Pixel-Art-Portfolio-Website/blob/master/image/image2.png)
 
 🎮 [View Live Demo](https://pixelart-portfolio.netlify.app/)
 
