@@ -1,41 +1,41 @@
 # Minimal Pixel Art Portfolio Website
 
-> A minimalist portfolio website combining pixel art aesthetics with modern design principles
+> A clean, minimal portfolio with pixel art vibes and modern design.
 
 ![Portfolio Preview](https://github.com/only-mar/Pixel-Art-Portfolio-Website/blob/master/image/image2.png)
 
-🎮 [View Live Demo](https://pixelart-portfolio.netlify.app/)
+🎮 [Check the live demo](https://pixelart-portfolio.netlify.app/)
 
-## 🎯 Design Philosophy
+## Design Philosophy
 
-- Content-first approach
-- Subtle pixel art elements
-- Modern minimalist UI
-- Responsive design
-- Enhanced accessibility
-- Optimized performance
+- Content first  
+- Subtle pixel art touches  
+- Minimal and modern UI  
+- Works great on all screens  
+- Accessible for everyone  
+- Fast and optimized  
 
-## 🌟 Key Features
+## Key Features
 
 ### Minimal Design
-- Clean typography
-- Subtle hover animations
-- Thoughtful whitespace
-- Focused content presentation
+- Clean fonts  
+- Smooth hover animations  
+- Lots of breathing space  
+- Focused on content  
 
 ### Project Showcase
-- SVG geometric art placeholders
-- Project categorization
-- Technology highlights
-- GitHub repository links
+- SVG geometric placeholders  
+- Projects grouped by category  
+- Tech used listed  
+- GitHub links included  
 
-### Interactive Elements
-- Animated skill bars
-- Smooth hover effects
-- Responsive contact form
-- Social media integration
+### Interactive Stuff
+- Animated skill bars  
+- Smooth hover effects  
+- Responsive contact form  
+- Social media links  
 
-## 💻 Tech Stack
+## Tech Stack
 
 ```plaintext
 Frontend:
@@ -48,22 +48,22 @@ Frontend:
 └── JavaScript (Vanilla)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
-# Clone repository
+# Clone repo
 git clone https://github.com/only-mar/pixel-art-portfolio.git
 
-# Navigate to project
+# Go to folder
 cd pixel-art-portfolio
 
-# Serve locally
-python -m http.server 8000  # Python
-php -S localhost:8000       # PHP
-npx serve                   # Node.js
+# Serve locally (pick one)
+python -m http.server 8000
+php -S localhost:8000
+npx serve
 ```
 
-## 🎨 Customization
+## Customization
 
 ```css
 :root {
@@ -75,15 +75,15 @@ npx serve                   # Node.js
 }
 ```
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License
+MIT License
 
 <div align="center">
 
-**Made with ❤️ by Mar**
-> Built with curiosity, caffeine, and late nights. If you like it, let's connect!
-
-[Discord](https://discord.gg/xywrsneY8b) • [Instagram](https://www.instagram.com/16.72/) • [Buy me a coffee](https://buymeacoffee.com/onlymar)
+Made with ❤️ by mar  
+> Built with curiosity, caffeine, and late nights.  
+Join the [Mar Terminal community](https://discord.gg/marx)
 
 </div>
+
